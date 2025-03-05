@@ -1,0 +1,164 @@
+/* Flexbox Layout para el menú (solo se aplicará en móviles y tabletas) */
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(235, 236, 238);
+    padding: 2rem;
+}
+
+/* Cards dentro del Flexbox */
+.cardFlexbox {
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    background: darkcyan;
+    flex: 1 1 200px;
+}
+
+/* Modificando propiedades específicas para algunas cards */
+.cardFlexbox:nth-child(3) {
+    order: 1; /* Moverá esta card al final */
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+}
+
+.cardFlexbox:nth-child(5) {
+    order: -1; /* Moverá esta card al principio */
+    flex-grow: 2; /* Crecerá el doble que las demás */
+    flex-shrink: 0.5;
+}
+
+.cardFlexbox:nth-child(7) {
+    flex-shrink: 0; /* No se encogerá */
+    flex-basis: 300px;
+}
+
+.cardFlexbox:nth-child(10) {
+    order: 2;
+    flex-grow: 3;
+    flex-basis: 350px;
+}
+
+/* Estilos base para el menú */
+/*
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+*/
+
+/* Estilos para móvil */
+/*
+@media (max-width: 600px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+    .navbar ul li:nth-child(1) { order: 4; } /* Inicio */
+    /*.navbar ul li:nth-child(2) { order: 2; } /* Restaurantes */
+    /*.navbar ul li:nth-child(3) { order: 3; } /* Blog */
+    /*.navbar ul li:nth-child(4) { order: 1; } /* Contacto */
+/*}
+*/
+
+/* Estilos para tablet */
+/*
+@media (min-width: 601px) and (max-width: 900px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+    .navbar ul li:nth-child(1) { order: 3; } /* Inicio */
+    /*.navbar ul li:nth-child(2) { order: 2; } /* Restaurantes */
+    /*.navbar ul li:nth-child(3) { order: 1; } /* Blog */
+    /*.navbar ul li:nth-child(4) { order: 4; } /* Contacto */
+/*}
+*/
+
+/* Estilos para desktop */
+/*
+@media (min-width: 901px) {
+    .navbar ul {
+        flex-direction: row;
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
