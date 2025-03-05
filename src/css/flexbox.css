@@ -63,10 +63,10 @@
     .navbar ul {
         flex-direction: column;
     }
-    .navbar ul li:nth-child(1) { order: 4; } /* Inicio */
-    /*.navbar ul li:nth-child(2) { order: 2; } /* Restaurantes */
-    /*.navbar ul li:nth-child(3) { order: 3; } /* Blog */
-    /*.navbar ul li:nth-child(4) { order: 1; } /* Contacto */
+    .navbar ul li:nth-child(1) { order: 4; } 
+    /*.navbar ul li:nth-child(2) { order: 2; } 
+    /*.navbar ul li:nth-child(3) { order: 3; } 
+    /*.navbar ul li:nth-child(4) { order: 1; } 
 /*}
 */
 
@@ -76,10 +76,10 @@
     .navbar ul {
         flex-direction: column;
     }
-    .navbar ul li:nth-child(1) { order: 3; } /* Inicio */
-    /*.navbar ul li:nth-child(2) { order: 2; } /* Restaurantes */
-    /*.navbar ul li:nth-child(3) { order: 1; } /* Blog */
-    /*.navbar ul li:nth-child(4) { order: 4; } /* Contacto */
+    .navbar ul li:nth-child(1) { order: 3; } 
+    /*.navbar ul li:nth-child(2) { order: 2; } 
+    /*.navbar ul li:nth-child(3) { order: 1; } 
+    /*.navbar ul li:nth-child(4) { order: 4; } 
 /*}
 */
 
